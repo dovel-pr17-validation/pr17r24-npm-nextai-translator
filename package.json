@@ -78,7 +78,7 @@
     "jss-preset-default": "^10.10.0",
     "katex": "^0.16.8",
     "lodash.debounce": "^4.0.8",
-    "lru-cache": "^10.0.1",
+    "lru-cache": "^11.5.3",
     "prism-react-renderer": "^2.3.0",
     "qs": "^6.11.2",
     "rc-field-form": "^1.36.0",
