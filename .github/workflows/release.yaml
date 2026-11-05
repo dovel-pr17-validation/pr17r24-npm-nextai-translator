@@ -170,7 +170,7 @@ jobs:
           secrets: ${{ toJSON(secrets) }}
 
       - name: Build Tauri App
-        uses: tauri-apps/tauri-action@v0
+        uses: tauri-apps/tauri-action@v1
         if: matrix.config.os != 'macos-latest' || matrix.config.arch != 'aarch64'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -181,7 +181,7 @@ jobs:
           updaterJsonPreferNsis: true
 
       - name: Build Tauri App (macOS aarch64)
-        uses: tauri-apps/tauri-action@v0
+        uses: tauri-apps/tauri-action@v1
         if: matrix.config.os == 'macos-latest' && matrix.config.arch == 'aarch64'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
