@@ -76,7 +76,7 @@
     "js-tiktoken": "^1.0.10",
     "jss": "^10.10.0",
     "jss-preset-default": "^10.10.0",
-    "katex": "^0.16.8",
+    "katex": "^0.19.1",
     "lodash.debounce": "^4.0.8",
     "lru-cache": "^10.0.1",
     "prism-react-renderer": "^2.3.0",
